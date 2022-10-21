@@ -37,6 +37,7 @@ export interface EditorSettings {
   highlightLine: boolean
   highlightGutter: boolean
   matchBrackets: boolean
+  showFooter: boolean
 }
 
 export interface ScreenshotSettings {

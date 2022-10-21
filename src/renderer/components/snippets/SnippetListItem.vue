@@ -20,7 +20,10 @@
         </span>
       </div>
     </div>
-    <div class="footer">
+    <div
+      v-if="appStore.editor.showFooter"
+      class="footer"
+    >
       <div class="folder">
         {{ folder || 'Inbox' }}
       </div>

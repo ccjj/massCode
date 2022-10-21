@@ -58,6 +58,12 @@
           name="singleQuote"
         />
       </AppFormItem>
+      <AppFormItem :label="i18n.t('preferences:editor.showFooter')">
+        <AppCheckbox
+          v-model="appStore.editor.showFooter"
+          name="showFooter"
+        />
+      </AppFormItem>
     </AppForm>
   </div>
 </template>

@@ -19,6 +19,7 @@
     "highlightLine": "Highlight Line",
     "highlightGutter": "Highlight Gutter",
     "matchBrackets": "Match Brackets",
+    "showFooter": "Show Snippet footer",
     "prettier": {
       "label": "Prettier",
       "trailingComma": {
